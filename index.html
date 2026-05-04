@@ -71,19 +71,18 @@ background:linear-gradient(90deg,transparent,#1e6fff,#00d4ff,transparent);opacit
 .row{display:flex;justify-content:space-between;align-items:center;padding:5px 0;border-bottom:1px solid rgba(30,111,255,.09)}
 .row:last-child{border-bottom:none}
 
-/* ปุ่มราคาและป้ายกำกับ (สี่เหลี่ยมมน + โทนฟ้าเรืองแสงนิดๆ) */
+/* ปุ่มราคาและป้ายกำกับ */
 .pt, .bdg {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   background: linear-gradient(135deg, rgba(0,212,255,0.15) 0%, rgba(30,111,255,0.3) 100%);
   border: 1px solid rgba(0,212,255,0.5);
-  border-radius: 8px; /* สี่เหลี่ยมขอบมน */
+  border-radius: 8px;
   padding: 3px 12px;
   font-size: 13px;
   color: #00d4ff;
   font-weight: 600;
-  /* เอฟเฟกต์เรืองแสง (Glow) พองาม */
   box-shadow: 0 0 12px rgba(0,212,255,0.4), inset 0 0 6px rgba(30,111,255,0.2);
   text-shadow: 0 0 5px rgba(0,212,255,0.3);
 }
@@ -173,8 +172,8 @@ visibility:hidden}
   <div class="hdr fi" style="animation-delay:.05s">
     <div class="hg"></div>
     <div class="hbdg">🎮 Official Shop</div>
-    <div class="sn">Dino shop</div>
-    <div class="stag">ยินดีต้อนรับลูกค้าทุกคนนะครับ</div>
+    <div class="sn">Dino Shop</div>
+    <div class="stag">❤️️ ยินดีต้อนรับลูกค้าทุกคนนะครับ</div>
     <div class="hl-links">
       <a href="https://www.facebook.com/share/1AvWGHHjGL/" target="_blank" class="lb">📘 Facebook</a>
       <a href="https://discord.gg/eHcpuwJyvF" target="_blank" class="lb">💬 Discord</a>
@@ -186,25 +185,15 @@ visibility:hidden}
 
     <div class="card full">
       <div class="ct"></div>
-      <span class="ci">🎨</span>
-      <div class="cttl">งานที่ทางร้านรับทำ</div>
+      <span class="ci">🖥️</span>
+      <div class="cttl">รับทำเซิร์ฟเวอร์ & ระบบดิสคอร์ด</div>
       <div class="cb">
-        <div class="row"><span>เซิร์ฟเวอร์ดิสคอร์ด</span><span class="bdg">รับทำ</span></div>
-        <div class="row"><span>ระบบดิสคอร์ด</span><span class="bdg">รับทำ</span></div>
-      </div>
-    </div>
-
-    <div class="card full">
-      <div class="ct"></div>
-      <span class="ci">🕷</span>
-      <div class="cttl">เรทราคางาน ✨</div>
-      <div class="cb">
-        <div class="row"><span>ดิสส่วนตัว</span><span class="pt">79.-</span></div>
-        <div class="row"><span>ดิสร้านค้า</span><span class="pt">99.-</span></div>
-        <div class="row"><span>ดิสแก๊ง/แคลน/ครอบครัว</span><span class="pt">109.-</span></div>
-        <div class="row"><span>ดิสสตรีมเมอร์</span><span class="pt">139.-</span></div>
-        <div class="row"><span>ดิสคอมมูนิตี้</span><span class="pt">199.-</span></div>
-        <div class="row"><span>ดิสประเทศ/โรลเพลย์</span><span class="pt">319.-</span></div>
+        <div class="row"><span>🕷️ ดิสส่วนตัว</span><span class="pt">79.-</span></div>
+        <div class="row"><span>🛒 ดิสร้านค้า</span><span class="pt">99.-</span></div>
+        <div class="row"><span>⚔️ ดิสแก๊ง/แคลน/ครอบครัว</span><span class="pt">109.-</span></div>
+        <div class="row"><span>🎥 ดิสสตรีมเมอร์</span><span class="pt">139.-</span></div>
+        <div class="row"><span>🌐 ดิสคอมมูนิตี้</span><span class="pt">199.-</span></div>
+        <div class="row"><span>🌍 ดิสประเทศ/โรลเพลย์</span><span class="pt">319.-</span></div>
       </div>
       <br>
       <a href="https://discord.gg/eHcpuwJyvF" target="_blank" class="clnk">⭐️ ตัวอย่างงาน คลิ๊ก</a>
@@ -218,9 +207,9 @@ visibility:hidden}
       <div class="ct"></div>
       <div class="cb">
         <div class="row"><span>⏱️ คิวปกติรองาน</span><span class="bdg ba">1-3 วัน</span></div>
-        <div class="row"><span>⚡ งานเร่ง</span><span class="pt">+50.-</span></div>
-        <div class="row"><span>⚡ งานเร่ง</span><span class="pt">+70.-</span></div>
-        <div class="row"><span>⚡ งานเร่ง</span><span class="pt">+100.-</span></div>
+        <div class="row"><span>⚡ งานเร่ง (แบบ 1)</span><span class="pt">+50.-</span></div>
+        <div class="row"><span>⚡ งานเร่ง (แบบ 2)</span><span class="pt">+70.-</span></div>
+        <div class="row"><span>⚡ งานเร่ง (แบบ 3)</span><span class="pt">+100.-</span></div>
       </div>
     </div>
   </div>
@@ -233,12 +222,12 @@ visibility:hidden}
         <div class="step"><div class="stn">1</div><div>บรีฟรายละเอียดที่ทางร้านส่งให้</div></div>
         <div class="step"><div class="stn">2</div><div>กรอกเสร็จแล้วรอแอดมินรวมยอด</div></div>
         <div class="step"><div class="stn">3</div><div>เมื่อถึงวันจะส่งงานให้เช็ค</div></div>
-        <div class="step"><div class="stn">4</div><div>เช็คเสร็จรอโอนหัวได้เลยครับ</div></div>
+        <div class="step"><div class="stn">4</div><div>เช็คเสร็จรอโอนหัวได้เลยครับ 🎉</div></div>
       </div>
     </div>
   </div>
 
-  <div class="sec fi" style="animation-delay:.27s">📍 กฎของร้าน 📍</div>
+  <div class="sec fi" style="animation-delay:.27s">📍 กฎของร้าน</div>
   <div class="grid fi" style="animation-delay:.29s">
     <div class="card full">
       <div class="ct"></div>
@@ -249,140 +238,6 @@ visibility:hidden}
       </div>
     </div>
   </div>
-
-  <div class="sec fi" style="animation-delay:.32s">🎮 สินค้า & บริการอื่นๆ</div>
-  <div class="grid fi" style="animation-delay:.34s">
-
-    <div class="card">
-      <div class="ct"></div>
-      <span class="ci">👾</span>
-      <div class="cttl">แอปเกมพรีเมียม</div>
-      <div class="cb">
-        <div class="row"><span>1 แอป</span><span class="pt">20.-</span></div>
-        <div class="row"><span>2 แอป</span><span class="pt">35.-</span></div>
-        <div class="row"><span>แอปถัดไป</span><span class="pt">+10.-</span></div>
-      </div>
-      <br>
-      <a href="https://linkbio.co/6040116pm0unr" target="_blank" class="clnk">👀 ดูแอปทั้งหมด</a>
-      <div class="nb">⚠️ เครื่องติดศูนย์/ผ่อนไม่ครบ โหลดไม่ได้<br>⚠️ ไม่โหลดภายใน 2 ชม. หลังส่งรหัส = ซื้อใหม่</div>
-    </div>
-
-    <div class="card">
-      <div class="ct"></div>
-      <span class="ci">📓</span>
-      <div class="cttl">Goodnote ตลอดชีพ</div>
-      <div class="cb">
-        <div class="row"><span>ราคา</span><span class="pt">20.-</span></div>
-        <div class="row"><span>จัดส่งภายใน</span><span class="bdg ba">15–30 นาที</span></div>
-      </div>
-      <div class="nb" style="margin-top:14px">⚠️ โหลดแอปเองก่อน เข้าสู่ระบบผ่านเมลร้าน<br>📦 โอนแล้วส่งสลิปได้เลย ไม่ต้องรอตอบ</div>
-    </div>
-
-    <div class="card">
-      <div class="ct"></div>
-      <span class="ci">🎭</span>
-      <div class="cttl">สติ๊กเกอร์ / ธีม / เมโลดี้ LINE</div>
-      <div class="cb">
-        <div class="row"><span>50 coin</span><span class="pt">24.-</span></div>
-        <div class="row"><span>85 coin</span><span class="pt">41.-</span></div>
-        <div class="row"><span>100 coin</span><span class="pt">48.-</span></div>
-        <div class="row"><span>150 coin</span><span class="pt">72.-</span></div>
-      </div>
-      <div class="nb" style="margin-top:14px">📎 ส่งลิงก์สติ๊กเกอร์ + แจ้ง ID / QR<br>💬 สอบถามก่อนโอนทุกครั้งนะคะ</div>
-    </div>
-
-  </div>
-
-  <div class="sec fi" style="animation-delay:.37s">💻 คอร์สสอนทำเว็บ</div>
-  <div class="crs fi" style="animation-delay:.39s">
-    <div class="cttlp">💻🎀 คอร์ส "เว็บร้าน" สไตล์พิ้งจู</div>
-    <div class="cprice">299.-</div>
-    <div class="cdesc">สอนตั้งแต่ 0 → ทำเป็นเว็บใช้งานได้จริง 🔥 ไม่ต้องมีพื้นฐาน ปูให้ครบทุกขั้นตอน มีโน้ตสรุป + เท็มเพลทสไตล์พิ้งจู 2 แบบ</div>
-    <a href="https://drive.google.com/drive/folders/1fj024BhkgC1ctJeiwyZUG3USteSdzWzr" target="_blank" class="clnk">🩷 เข้าดูคอร์ส</a>
-  </div>
-
-  <div class="sec fi" style="animation-delay:.42s">💳 ชำระเงิน</div>
-  <div class="bnk fi" style="animation-delay:.44s">
-    <div class="blbl">🏦 ธนาคารกสิกรไทย (KBANK)</div>
-    <div class="bnm">อนุสรา พงษ์ประสิทธิ์</div>
-    <div class="bown">บัญชีนี้บัญชีเดียวเท่านั้น ✅</div>
-    <span class="bnum">2221391563</span>
-    <button class="cpbtn" id="cb" onclick="cpAcc()">
-      <span id="ci2">📋</span><span id="ct2">คัดลอกเลขบัญชี</span>
-    </button>
-    
-    <div style="margin-top:22px; font-size:13px; color:#8ab0d8; line-height:1.8; background:rgba(0,0,0,0.15); padding:10px; border-radius:12px; border:1px solid rgba(30,111,255,0.2);">
-      📌 รบกวนโอนแล้ว <b>แนบสลิปทุกครั้ง</b> นะคะ ✨<br>
-      <span style="color:#ff6eb4;">⚠️ โอนผิดต้องโอนใหม่น้า ทางร้านไม่โอนคืนทุกกรณีค่ะ 🙏💖</span>
-    </div>
-  </div>
-
-  <div class="sec fi" style="animation-delay:.47s">📱 ช่องทางติดต่อ</div>
-  <div class="cons fi" style="animation-delay:.49s">
-    <a href="https://www.facebook.com/share/1AvWGHHjGL/" target="_blank" class="cb2 cfb">📘 Facebook</a>
-    <a href="https://discord.gg/eHcpuwJyvF" target="_blank" class="cb2 cln">💬 Discord</a>
-  </div>
-
-  <p style="text-align:center;font-size:12px;color:#3a5a8a;margin-top:30px;opacity:.7">© Dino shop · ตอบกลับไม่เกิน 10 นาที (มีงานประจำค่ะ 🙏)</p>
-
-</div>
-
-<div class="toast" id="toast">✅ คัดลอกเลขบัญชีแล้ว!</div>
-
-<script>
-// Particles
-(function(){
-  var pc=document.getElementById('pts');
-  var cs=['#1e6fff','#00d4ff','#a78bfa','#60a5fa','#00c8ff'];
-  for(var i=0;i<28;i++){
-    var el=document.createElement('div');
-    el.className='p';
-    var s=Math.random()*4+2;
-    el.style.cssText='width:'+s+'px;height:'+s+'px;background:'+cs[i%cs.length]+';left:'+(Math.random()*100)+'%;animation-duration:'+(9+Math.random()*12)+'s;animation-delay:'+(Math.random()*12)+'s;box-shadow:0 0 '+(s*3)+'px currentColor;';
-    pc.appendChild(el);
-  }
-})();
-
-// Copy Function
-function cpAcc(){
-  const textToCopy = '2221391563';
-  
-  if (navigator.clipboard && window.isSecureContext) {
-      navigator.clipboard.writeText(textToCopy).then(showSuccess);
-  } else {
-      try {
-          const tempTextArea = document.createElement('textarea');
-          tempTextArea.value = textToCopy;
-          tempTextArea.style.top = "0";
-          tempTextArea.style.left = "0";
-          tempTextArea.style.position = "fixed";
-          
-          document.body.appendChild(tempTextArea);
-          tempTextArea.focus();
-          tempTextArea.select();
-          document.execCommand('copy');
-          document.body.removeChild(tempTextArea);
-          showSuccess();
-      } catch (err) {
-          console.error('Failed to copy', err);
-      }
-  }
-}
-
-function showSuccess() {
-    var btn=document.getElementById('cb');
-    document.getElementById('ci2').textContent='✅';
-    document.getElementById('ct2').textContent='คัดลอกแล้ว!';
-    btn.classList.add('done');
-    var t=document.getElementById('toast');
-    t.classList.add('on');
-    setTimeout(function(){
-      btn.classList.remove('done');
-      document.getElementById('ci2').textContent='📋';
-      document.getElementById('ct2').textContent='คัดลอกเลขบัญชี';
-      t.classList.remove('on');
-    },2600);
-}
 </script>
 
 </body>

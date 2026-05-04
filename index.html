@@ -71,18 +71,19 @@ background:linear-gradient(90deg,transparent,#1e6fff,#00d4ff,transparent);opacit
 .row{display:flex;justify-content:space-between;align-items:center;padding:5px 0;border-bottom:1px solid rgba(30,111,255,.09)}
 .row:last-child{border-bottom:none}
 
-/* ปุ่มราคาและป้ายกำกับ */
+/* ปุ่มราคาและป้ายกำกับ (สี่เหลี่ยมมน + โทนฟ้าเรืองแสงนิดๆ) */
 .pt, .bdg {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   background: linear-gradient(135deg, rgba(0,212,255,0.15) 0%, rgba(30,111,255,0.3) 100%);
   border: 1px solid rgba(0,212,255,0.5);
-  border-radius: 8px;
+  border-radius: 8px; /* สี่เหลี่ยมขอบมน */
   padding: 3px 12px;
   font-size: 13px;
   color: #00d4ff;
   font-weight: 600;
+  /* เอฟเฟกต์เรืองแสง (Glow) พองาม */
   box-shadow: 0 0 12px rgba(0,212,255,0.4), inset 0 0 6px rgba(30,111,255,0.2);
   text-shadow: 0 0 5px rgba(0,212,255,0.3);
 }
@@ -172,8 +173,8 @@ visibility:hidden}
   <div class="hdr fi" style="animation-delay:.05s">
     <div class="hg"></div>
     <div class="hbdg">🎮 Official Shop</div>
-    <div class="sn">Dino Shop</div>
-    <div class="stag">❤️️ ยินดีต้อนรับลูกค้าทุกคนนะครับ</div>
+    <div class="sn">Dino shop</div>
+    <div class="stag">ยินดีต้อนรับลูกค้าทุกคนนะครับ</div>
     <div class="hl-links">
       <a href="https://www.facebook.com/share/1AvWGHHjGL/" target="_blank" class="lb">📘 Facebook</a>
       <a href="https://discord.gg/eHcpuwJyvF" target="_blank" class="lb">💬 Discord</a>
@@ -185,15 +186,25 @@ visibility:hidden}
 
     <div class="card full">
       <div class="ct"></div>
-      <span class="ci">🖥️</span>
-      <div class="cttl">รับทำเซิร์ฟเวอร์ & ระบบดิสคอร์ด</div>
+      <span class="ci">🎨</span>
+      <div class="cttl">งานที่ทางร้านรับทำ</div>
       <div class="cb">
-        <div class="row"><span>🕷️ ดิสส่วนตัว</span><span class="pt">79.-</span></div>
-        <div class="row"><span>🛒 ดิสร้านค้า</span><span class="pt">99.-</span></div>
-        <div class="row"><span>⚔️ ดิสแก๊ง/แคลน/ครอบครัว</span><span class="pt">109.-</span></div>
-        <div class="row"><span>🎥 ดิสสตรีมเมอร์</span><span class="pt">139.-</span></div>
-        <div class="row"><span>🌐 ดิสคอมมูนิตี้</span><span class="pt">199.-</span></div>
-        <div class="row"><span>🌍 ดิสประเทศ/โรลเพลย์</span><span class="pt">319.-</span></div>
+        <div class="row"><span>เซิร์ฟเวอร์ดิสคอร์ด</span><span class="bdg">รับทำ</span></div>
+        <div class="row"><span>ระบบดิสคอร์ด</span><span class="bdg">รับทำ</span></div>
+      </div>
+    </div>
+
+    <div class="card full">
+      <div class="ct"></div>
+      <span class="ci">🕷</span>
+      <div class="cttl">เรทราคางาน ✨</div>
+      <div class="cb">
+        <div class="row"><span>ดิสส่วนตัว</span><span class="pt">79.-</span></div>
+        <div class="row"><span>ดิสร้านค้า</span><span class="pt">99.-</span></div>
+        <div class="row"><span>ดิสแก๊ง/แคลน/ครอบครัว</span><span class="pt">109.-</span></div>
+        <div class="row"><span>ดิสสตรีมเมอร์</span><span class="pt">139.-</span></div>
+        <div class="row"><span>ดิสคอมมูนิตี้</span><span class="pt">199.-</span></div>
+        <div class="row"><span>ดิสประเทศ/โรลเพลย์</span><span class="pt">319.-</span></div>
       </div>
       <br>
       <a href="https://discord.gg/eHcpuwJyvF" target="_blank" class="clnk">⭐️ ตัวอย่างงาน คลิ๊ก</a>
@@ -207,9 +218,9 @@ visibility:hidden}
       <div class="ct"></div>
       <div class="cb">
         <div class="row"><span>⏱️ คิวปกติรองาน</span><span class="bdg ba">1-3 วัน</span></div>
-        <div class="row"><span>⚡ งานเร่ง (แบบ 1)</span><span class="pt">+50.-</span></div>
-        <div class="row"><span>⚡ งานเร่ง (แบบ 2)</span><span class="pt">+70.-</span></div>
-        <div class="row"><span>⚡ งานเร่ง (แบบ 3)</span><span class="pt">+100.-</span></div>
+        <div class="row"><span>⚡ งานเร่ง</span><span class="pt">+50.-</span></div>
+        <div class="row"><span>⚡ งานเร่ง</span><span class="pt">+70.-</span></div>
+        <div class="row"><span>⚡ งานเร่ง</span><span class="pt">+100.-</span></div>
       </div>
     </div>
   </div>
@@ -222,12 +233,12 @@ visibility:hidden}
         <div class="step"><div class="stn">1</div><div>บรีฟรายละเอียดที่ทางร้านส่งให้</div></div>
         <div class="step"><div class="stn">2</div><div>กรอกเสร็จแล้วรอแอดมินรวมยอด</div></div>
         <div class="step"><div class="stn">3</div><div>เมื่อถึงวันจะส่งงานให้เช็ค</div></div>
-        <div class="step"><div class="stn">4</div><div>เช็คเสร็จรอโอนหัวได้เลยครับ 🎉</div></div>
+        <div class="step"><div class="stn">4</div><div>เช็คเสร็จรอโอนหัวได้เลยครับ</div></div>
       </div>
     </div>
   </div>
 
-  <div class="sec fi" style="animation-delay:.27s">📍 กฎของร้าน</div>
+  <div class="sec fi" style="animation-delay:.27s">📍 กฎของร้าน 📍</div>
   <div class="grid fi" style="animation-delay:.29s">
     <div class="card full">
       <div class="ct"></div>
@@ -312,7 +323,7 @@ visibility:hidden}
     <a href="https://discord.gg/eHcpuwJyvF" target="_blank" class="cb2 cln">💬 Discord</a>
   </div>
 
-  <p style="text-align:center;font-size:12px;color:#3a5a8a;margin-top:30px;opacity:.7">© pinkjulieland · ตอบกลับไม่เกิน 10 นาที (มีงานประจำค่ะ 🙏)</p>
+  <p style="text-align:center;font-size:12px;color:#3a5a8a;margin-top:30px;opacity:.7">© Dino shop · ตอบกลับไม่เกิน 10 นาที (มีงานประจำค่ะ 🙏)</p>
 
 </div>
 
